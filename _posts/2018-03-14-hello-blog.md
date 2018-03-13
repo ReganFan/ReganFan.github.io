@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的 Blog 今天开通了……
-date: 2018-03-14 01:00:00+08:00
+date: 2018-03-14 01:00:00+00:00
 categories: 日志
 tags: 博客
 ---
