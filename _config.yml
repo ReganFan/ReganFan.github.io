@@ -1,0 +1,17 @@
+future: true
+permalink: /:title/
+url: http://ReganFan.github.io
+name: Yeshu
+author: Yeshu
+qq: 971204464
+email: fanyy9@mail2.sysu.edu.cn
+
+duoshuo: yourname
+beian: 
+cnzz: 
+weibo: 
+github: yourID
+about: "这里是 Yeshu 的个人博客，创建于 2018 年。"
+
+safe: true
+paginate: 20
