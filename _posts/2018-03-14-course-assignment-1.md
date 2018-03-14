@@ -9,9 +9,7 @@ tags: 博客
 # 系统分析与设计 Lession 1
 
 1. **<u>简单题</u>**
-
    - **软件工程的定义**
-
      > Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).” – IEEE Standard 610.12
 
      ​　　软件工程是指导计算机软件开发和维护的工程学科。采用工程的概念、原理、技术和方法来开发与维护软件，把经过实践考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，这就是软件工程。
