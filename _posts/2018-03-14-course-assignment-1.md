@@ -9,13 +9,12 @@ tags: 博客
 # 系统分析与设计 Lession 1
 
 1. **<u>简单题</u>**
-
    - **软件工程的定义**
      > Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).” – IEEE Standard 610.12
 
      ​　　软件工程是指导计算机软件开发和维护的工程学科。采用工程的概念、原理、技术和方法来开发与维护软件，把经过实践考验而证明正确的管理技术和当前能够得到的最好的技术方法结合起来，这就是软件工程。
-
    - **阅读经典名著“人月神话”等资料，解释 software crisis、COCOMO 模型。**
+
      ​　　软件危机是指落后的软件生产方式无法满足迅速增长的计算机软件需求，从而导致软件开发与维护过程中出现一系列严重问题的现象。
 
      ​　　构造性成本模型（*COCOMO*，英文全称为Constructive Cost Model）是由巴里·勃姆（Barry Boehm）提出的一种软件成本估算方法。这种模型使用一种基本的回归分析公式，使用从项目历史和现状中的某些特征作为参数来进行计算。
@@ -25,6 +24,7 @@ tags: 博客
      - 基本模型 （Basic Model）。 是一个静态单变量模型，它用一个以已估算出来的源代码行数 （LOC） 为自变量的函数来计算软件开发工作量。
      - 中间模型 （Intermediate Model）。 则在用 LOC 为自变量的函数计算软件开发工作量的基础上，再用涉及产品、硬件、人员、项目等方面属性的影响因素来调整工作量的估算。
      - 详细模型 （Detailed Model）。 包括中间 COCOMO 模型的所有特性，但用上述各种影响因素调整工作量估算时，还要考虑对软件工程过程中分析、设计等各步骤的影响。
+
      ​　　COCOMO 模型具有估算精确、易于使用的特点。在该模型中使用的基本量有以下几个：
 
      1. DSI（ 源指令条数 ），定义为代码行数，包括除注释行以外的全部代码。若一行有两个语句，则算做一条指令。
