@@ -9,6 +9,7 @@ tags: 博客
 # 系统分析与设计 Lession 1
 
 1. **<u>简单题</u>**
+
    - **软件工程的定义**
      > Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).” – IEEE Standard 610.12
 
