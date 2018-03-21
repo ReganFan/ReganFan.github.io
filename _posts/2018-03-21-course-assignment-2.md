@@ -153,7 +153,7 @@ tags: 博客
 
 迭代是固定的或时间定量的，系统是增量式增长的。
 
-![迭代和增量开发](..\assets\2018-03-21-course-assignment-2-diagram\Iterative-and-incremental-development.PNG)
+![迭代和增量开发](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/Iterative-and-incremental-development.PNG)
 
 ##### 需求变化趋于稳定
 
