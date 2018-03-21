@@ -147,35 +147,35 @@ tags: 博客
 
 #### UP理论依据
 
-在UP中，有以下关于**工作流（Workflows）**的理论依据，企业可以按固定节奏生产、固定周期发布软件产品。
+在UP中，有以下关于**工作流（Workflows）**  的理论依据，企业可以按固定节奏生产、固定周期发布软件产品。
 
 ##### UP使用迭代和增量开发
 
 迭代是固定的或时间定量的，系统是增量式增长的。
 
-![迭代和增量开发](..\assets\2018-03-21-course-assignment-2-diagram\Iterative-and-incremental-development.PNG)
+![迭代和增量开发](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/Iterative-and-incremental-development.PNG)
 
 ##### 需求变化趋于稳定
 
 迭代反馈和进化向预期系统的方向发展。需求和设计的不稳定性随着时间逐步下降。
 
-![需求变化趋于稳定](..\assets\2018-03-21-course-assignment-2-diagram\requirement-instability-lowers.PNG)
+![需求变化趋于稳定](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/requirement-instability-lowers.PNG)
 
 ##### 早期迭代
 
-![早期迭代的主要形式](..\assets\2018-03-21-course-assignment-2-diagram\early-iterative-development.PNG)
+![早期迭代的主要形式](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/early-iterative-development.PNG)
 
 ##### UP进度表
 
-![UP进度表](..\assets\2018-03-21-course-assignment-2-diagram\UP-schedule.PNG)
+![UP进度表](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/UP-schedule.PNG)
 
 ##### UP科目与阶段
 
-UP描述了**科目（discipline）**中的工作活动，例如编写用例。科目是在一个主题域中的一组活动（及相关制品），例如需求分析中的活动。在UP中，**制品（artifact）**是对所有工作产品的统称，如代码、Web图形、数据库模式、文本文档、图、模型等。
+UP描述了**科目（discipline）** 中的工作活动，例如编写用例。科目是在一个主题域中的一组活动（及相关制品），例如需求分析中的活动。在UP中，**制品（artifact）** 是对所有工作产品的统称，如代码、Web图形、数据库模式、文本文档、图、模型等。
 
-![UP科目样例](..\assets\2018-03-21-course-assignment-2-diagram\UP-disciplines.PNG)
+![UP科目样例](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/UP-disciplines.PNG)
 
-![UP科目与阶段](..\assets\2018-03-21-course-assignment-2-diagram\UP-disciplines-and-phases.PNG)
+![UP科目与阶段](https://github.com/ReganFan/ReganFan.github.io/blob/master/assets/2018-03-21-course-assignment-2-diagram/UP-disciplines-and-phases.PNG)
 
 ## 2. 项目管理使用
 
