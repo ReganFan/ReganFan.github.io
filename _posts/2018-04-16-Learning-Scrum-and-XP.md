@@ -10,8 +10,6 @@ tags: 博客
 
 # Scrum and XP
 
-[TOC]
-
 ## 前言
 
 　　这部分内容是个人在阅读[《硝烟中的Scrum和XP》](http://www.infoq.com/cn/minibooks/scrum-xp-from-the-trenches)时的理解和记录，用于帮助个人更好地在学习团队中应用Scrum和XP。
