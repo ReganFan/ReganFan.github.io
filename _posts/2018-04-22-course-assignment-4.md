@@ -12,7 +12,7 @@ tags: 博客
 
 ### a. 阅读Asg_RH文档，绘制用例图。按Task1要求，请使用工具UMLet，截图格式务必是png并控制尺寸
 
-如下UML图，其中关于外部系统"hotel database"的使用其实与"search hotels"以及"choose hotel"两个用例均有关，但在Use case上只是与一些具体子用例相关联：
+　　如下UML图，其中关于外部系统"hotel database"的使用其实与"search hotels"以及"choose hotel"两个用例均有关，但在Use case上只是与一些具体子用例相关联：
 
 ![task 1 uml](/assets/2018-04-22-course-assignment-4-diagram/task-1-reserve-hotel-uml.png)
 
@@ -98,19 +98,19 @@ tags: 博客
 
 　　如下所示，即是去哪儿网站中预订酒店平台的找酒店用例的活动图建模。需要注意的是，该活动图只是选取了主要的业务流程，并没有包括有其他拓展业务。可以知道的是，通过分析流程图中的重要操作能够获取子用例。比如，该找酒店用例，就有选择酒店范围、输入目的地、选择入住时间以及退房时间的操作，对比用例图，能够发现这些操作就是找酒店用例的子用例。
 
-![search hotels uml activity](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\search-hotels.png)
+![search hotels uml activity](/assets/2018-04-22-course-assignment-4-diagram/search-hotels.png)
 
 ### b. 选择你身边的银行ATM，用活动图描绘取款业务流程。
 
 　　选择建设银行的ATM进行分析，取款业务流程的活动图如下所示：
 
-![withdraw money](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\withdraw-money.png)
+![withdraw money](/assets/2018-04-22-course-assignment-4-diagram/withdraw-money.png)
 
 ### c. 查找淘宝退货业务官方文档，使用多泳道图，表达客户、淘宝网、淘宝商家服务系统、商家等用户和系统协同完成退货业务的过程。分析客户要完成退货业务，在淘宝网上需要实现哪些系统用例
 
 　　通过浏览[淘宝开放平台](http://open.taobao.com/)提供的API文档，可以发现[退款退货业务的多泳道活动图](http://open.taobao.com/doc.htm?spm=a219a.7386653.1.21.cYxzrQ#?treeId=477&docId=102594&docType=1)（忽略API接口信息），如下所示：
 
-![taobao refund uml activity](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\taobao-refund.png)
+![taobao refund uml activity](/assets/2018-04-22-course-assignment-4-diagram/taobao-refund.png)
 
 　　可以发现，客户要完成退货业务，淘宝网需要实现的系统用例（考虑成功退货的主要用例）包括有：生成退款单、同意退货处理、变更退款单状态以及同意退款处理。
 
