@@ -14,7 +14,7 @@ tags: 博客
 
 如下UML图，其中关于外部系统"hotel database"的使用其实与"search hotels"以及"choose hotel"两个用例均有关，但在Use case上只是与一些具体子用例相关联：
 
-![task 1 uml](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\task-1-reserve-hotel-uml.png)
+![task 1 uml](/assets/2018-04-22-course-assignment-4-diagram/task-1-reserve-hotel-uml.png)
 
 ### b. 选择你熟悉的订旅馆在线服务系统（或移动APP），如绘制用例图。并满足以下要求：<br/>- 对比Asg_RH用例图，请用色彩标注出创新用例或子用例<br/>- 尽可能识别外部系统，并用色彩标注新的外部系统和服务
 
@@ -28,39 +28,39 @@ tags: 博客
 
 　　这部分的创新用例包括了选择境内外酒店、高级搜索酒店、地图搜索以及根据每日酒店推荐搜索。
 
-![search hotels](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-search-hotels.PNG)
+![search hotels](/assets/2018-04-22-course-assignment-4-diagram/qunar-search-hotels.PNG)
 
 ##### 选择旅馆：
 
 　　这里额外提供了按条件筛选酒店的功能。
 
-![choose hotel](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-choose-hotel.PNG)
+![choose hotel](/assets/2018-04-22-course-assignment-4-diagram/qunar-choose-hotel.PNG)
 
 ##### 选择房间：
 
 　　增加了用户点评、酒店设施概况、酒店位置交通、多个预订网站选择等等功能。
 
-![choose room](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-choose-room-type.PNG)
+![choose room](/assets/2018-04-22-course-assignment-4-diagram/qunar-choose-room-type.PNG)
 
 ##### 确认订单：
 
-![confirm reservation](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-confirm-reservation.PNG)
+![confirm reservation](/assets/2018-04-22-course-assignment-4-diagram/qunar-confirm-reservation.PNG)
 
 　　下面是预定完成后的预定信息，可以进一步选择取消订单或打印：
 
-![view reservation info](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-view-reservation-info.PNG)
+![view reservation info](/assets/2018-04-22-course-assignment-4-diagram/qunar-view-reservation-info.PNG)
 
 ##### 支付：
 
 　　支付方式有多种类型。
 
-![pay](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-pay.PNG)
+![pay](/assets/2018-04-22-course-assignment-4-diagram/qunar-pay.PNG)
 
 #### 用例图
 
 　　其中红色用例表示创新用例或子用例，绿色外部Actors表示新的外部系统或服务，黄色注释也是与Asg_RH中网站所包括的不同点。另外，需要强调的是，去哪儿网站已经发展非常成熟，因而与文档中的旧网站相比，有更多的功能和服务，也就有更多的用例，用例图更加复杂。下列用例图也只是选择了主要的用例，尽可能地详细绘制，但实际上也有相当多的用例被选择忽略，因而请阅者体谅。
 
-![qunar reserve hotel use case diagram](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-22-course-assignment-4-diagram\qunar-reserve-hotel.png)
+![qunar reserve hotel use case diagram](/assets/2018-04-22-course-assignment-4-diagram/qunar-reserve-hotel.png)
 
 ### c. 对比两个时代、不同地区产品的用例图，总结在项目早期，发现创新的思路与方法
 
@@ -90,16 +90,7 @@ tags: 博客
 
 　　绘制backlog的方法可见[Learning-Scrum-and-XP](https://reganfan.github.io/Learning-Scrum-and-XP/)，下列backlog使用的排序方法是按需求组织的形式进行排序，并非按照重要性排序，同时，下列故事条目只是选取了主要故事以及每个主要故事的一个扩展点作为例子。另外，初始估算是假设开发团队为6人时进行的人-天估算（每个故事安排2人），并且一个迭代周期假设为三个星期工作日（15天）。最后，下列backlog并没有How to demo条目，主要是因为篇幅太大，所以被省去，请阅者体谅。
 
-|ID|Name|Imp|Est|Iter|Notes|
-| :- | :- | :- | :- | :- | :- |
-|1|search hotels|120|10|1||
-|2|search by map|60|2|2|Using Baidu Map|
-|3|choose hotel|110|10|1||
-|4|select filter conditions|50|4|1||
-|5|choose room type|100|10|1||
-|6|view customer comment|40|4|2||
-|7|confirm reservation|90|10|1||
-|8|make payment|80|8|2||
+![backlog](/assets/2018-04-22-course-assignment-4-diagram/backlog.PNG)
 
 ## 2. 业务建模
 
