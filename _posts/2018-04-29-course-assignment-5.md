@@ -14,13 +14,13 @@ tags: 博客
 
 #### 根据Task2的要求，使用工具UMLet绘制“Reserve Hotel”的领域模型图如下：
 
-![domain-model](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-29-course-assignment-5-diagram\domain-model.png)
+![domain-model](/assets/2018-04-29-course-assignment-5-diagram/domain-model.png)
 
 ### b. 数据建模(E-R 模型)
 
 #### - 按 Task 3 要求，给出系统的 E-R 模型（数据逻辑模型）
 
-![E-R model](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-04-29-course-assignment-5-diagram\E-R.PNG)
+![E-R model](/assets/2018-04-29-course-assignment-5-diagram/E-R.PNG)
 
 #### - 导出 Mysql 物理数据库脚本
 
