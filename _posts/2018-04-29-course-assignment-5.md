@@ -27,8 +27,6 @@ tags: 博客
 这里使用的数据库系统为**MySQL 4.0**：
 
 ```sql
-drop table if exists City;
-
 drop index Owns_FK on CreditCard;
 
 drop index "Paid-with_FK" on CreditCard;
@@ -40,6 +38,8 @@ drop table if exists Customer;
 drop index "Is-in_FK" on Hotel;
 
 drop table if exists Hotel;
+
+drop table if exists Location;
 
 drop index "Paid-by_FK" on Payment;
 
@@ -58,16 +58,6 @@ drop table if exists Reservation;
 drop index Has_FK on Room;
 
 drop table if exists Room;
-
-/*==============================================================*/
-/* Table: City                                                  */
-/*==============================================================*/
-create table City
-(
-   cityName                       varchar(50)                    not null,
-   primary key (cityName)
-)
-type = InnoDB;
 
 /*==============================================================*/
 /* Table: CreditCard                                            */
@@ -132,6 +122,16 @@ create index "Is-in_FK" on Hotel
 (
    cityName
 );
+
+/*==============================================================*/
+/* Table: Location                                              */
+/*==============================================================*/
+create table Location
+(
+   cityName                       varchar(50)                    not null,
+   primary key (cityName)
+)
+type = InnoDB;
 
 /*==============================================================*/
 /* Table: Payment                                               */
@@ -212,6 +212,8 @@ create table Room
    childrenNumber                 numeric(8,0),
    RoomNo                         int                            not null,
    hotelName                      varchar(50)                    not null,
+   isAvailability                 bool                           not null,
+   usageTime                      datetime                       not null,
    primary key (RoomNo)
 )
 type = InnoDB;
@@ -231,7 +233,7 @@ alter table CreditCard add constraint "FK_Paid-with" foreign key (paymentID)
       references Payment (paymentID) on delete restrict on update restrict;
 
 alter table Hotel add constraint "FK_Is-in" foreign key (cityName)
-      references City (cityName) on delete restrict on update restrict;
+      references Location (cityName) on delete restrict on update restrict;
 
 alter table Payment add constraint "FK_Paid-by" foreign key (ReservationID)
       references Reservation (ReservationID) on delete restrict on update restrict;
@@ -250,7 +252,6 @@ alter table Reservation add constraint FK_Reserves foreign key (hotelName)
 
 alter table Room add constraint FK_Has foreign key (hotelName)
       references Hotel (hotelName) on delete restrict on update restrict;
-
 ```
 
 #### - 简单叙说 数据库逻辑模型 与 领域模型 的异同
