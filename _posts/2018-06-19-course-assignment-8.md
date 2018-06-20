@@ -23,7 +23,7 @@ tags: 博客
 - 绘制三层架构模型图，细致到分区
 - 结合你程序的结构，从程序员角度说明三层架构给开发者带来的便利
 
-![architecture](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-06-19-course-assignment-8-diagram\architecture.png)
+![architecture](/assets/2018-06-19-course-assignment-8-diagram/architecture.png)
 
 给开发者带来的便利：
 
@@ -42,7 +42,7 @@ tags: 博客
 
 在VUE中，有一个专门的状态管理库——[Vuex](https://vuex.vuejs.org/zh/)，它的状态管理基本原理如下：
 
-![vuex](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-06-19-course-assignment-8-diagram\vuex.png)
+![vuex](/assets/2018-06-19-course-assignment-8-diagram/vuex.png)
 
 Vuex使用单一状态树，用一个对象就包含了全部的应用层级状态，也即每个应用将仅仅包含一个store实例(包含多个State)。这个状态变化过程大概就是用户的交互操作action经过Dispatch后，View调用store.commit提交对应的请求到store中对应的mutation函数，然后store再改变生成新的state，最后Vue组件检测到数据变化自动渲染。
 
@@ -50,7 +50,7 @@ Vuex使用单一状态树，用一个对象就包含了全部的应用层级状�
 
 [Flux](https://juejin.im/entry/577f06e62e958a0054af5a2a)的状态管理也与此类似(Vuex其实有参考Flux进行设计)，不过Flux中没有对应Vuex中的Mutations状态，如下过程：
 
-![flux](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-06-19-course-assignment-8-diagram\flux.png)
+![flux](/assets/2018-06-19-course-assignment-8-diagram/flux.png)
 
 用户的操作同样会触发 Actions，然后被提交到一个集中的 Dispatcher 当中。当 Actions 被派发之后，Stores 将会随之更新自己并且通知 Views 进行修改。
 
