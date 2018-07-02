@@ -18,7 +18,7 @@ tags: 博客
 
 #### 界面原型
 
-参照文档[Asg_RH](D:\Programming\GitHub Desktop\ReganFan.github.io\assets\2018-06-21-course-assignment-9-diagram\Asg_RH.pdf)说明。
+参照文档[Asg_RH](/assets/2018-06-21-course-assignment-9-diagram/Asg_RH.pdf)说明。
 
 #### 领域模型
 
