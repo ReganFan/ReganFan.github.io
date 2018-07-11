@@ -1,0 +1,3 @@
+# 说明
+
+本文件夹的模型来自[Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)的一个[物体识别训练模型](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2018_01_28.tar.gz)，详细可见[文档](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)，主要用于[objectDetectionRobo](https://github.com/ReganFan/objectDetectionRobo)项目Demo的调用
